@@ -2,11 +2,11 @@ class Bl < Formula
   homepage "https://blocklayerhq.com"
   desc "Blocklayer CLI"
 
-  version "20201015.1"
+  version "20201201.1"
   version_scheme 1
 
-  url "https://blocklayer-dev.s3.amazonaws.com/beta/cli/ffbe1031/bl-Darwin-x86_64"
-  sha256 "1c638b4e9073ddee074298ed7041ed70616a697bb02dcd518bad50ae1557c4ec"
+  url "https://blocklayer-dev.s3.amazonaws.com/beta/cli/3773596b/bl-Darwin-x86_64"
+  sha256 "b78b7f5ce5843f7860674d94c6acdb2ef88ed708a6303b4f12fcbd7ce4c8167b"
 
   def install
     mv "bl-Darwin-x86_64", "bl"
